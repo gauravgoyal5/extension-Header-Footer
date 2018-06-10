@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "extension-sample-menu",
+    "libraryId": "da390540-6b36-42c6-9f3b-4ab823be66af",
+    "environment": "spo"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://batchmastersoftwareinc.sharepoint.com/sites/bizcollab/SitePages/myPage.aspx",
+      "customActions": {
+        "f485594e-1537-4584-9623-4138917629fe": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message 1",
+            "Top": "Top"
+          }
+        }
+      }
+    },
+    "simpleMenuAndHeader": {
+      "pageUrl": "https://batchmastersoftwareinc.sharepoint.com/sites/bizcollab/SitePages/myPage.aspx",
+      "customActions": {
+        "f485594e-1537-4584-9623-4138917629fe": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message 2",
+            "Top": "Top"
+          }
+        }
+      }
+    }
+  }
+}
